@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Reference Include="MemoryRaider">
+	    <HintPath>..\..\MemoryRaider\Memory Raider x64\MemoryRaider\bin\x64\Release\net8.0\MemoryRaider.dll</HintPath>
+	  </Reference>
+	</ItemGroup>
+
+</Project>
